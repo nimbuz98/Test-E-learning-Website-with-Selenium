@@ -22,7 +22,7 @@ public class PaymentPage {
 
     @FindBy(xpath="//*[@id=\"card-element\"]/div/iframe") WebElement frameelement;
 
-    @FindBy(name="cardnumber") WebElement cardnum;
+    @FindBy(xpath="//*[@id=\"root\"]/form/div/div[2]/span[1]/span[2]/div/div[2]/span/input") WebElement cardnum;
 
     @FindBy(name="exp-date") WebElement expdate;
 

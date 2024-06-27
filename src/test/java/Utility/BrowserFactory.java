@@ -25,10 +25,6 @@ public class BrowserFactory {
             System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
             driver = new FirefoxDriver();
         }
-        else if(browserName.equals("IE")){
-            System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
-            driver = new FirefoxDriver();
-        }
         else if(browserName.equals("Edge"))
         {
             System.setProperty("webdriver.edge.driver", "./Drivers/msedgedriver.exe");
